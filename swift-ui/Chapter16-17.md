@@ -71,9 +71,13 @@ class ViewController: UIViewController {
 #### 실습 준비
 
 - iOS 장비의 **Developer Mode** 를 **On**으로 변경 후 **Restart**
-   
+  <img src="./assets/image-20241029000545767.png" alt="image-20241029000545767" style="width:500px; float:left" />
 
-<img src="./assets/image-20241029000545767.png" alt="image-20241029000545767" style="width:500px; float:left" />
+
+
+
+
+
 
 - Team을 지정
    <img src="./assets/image-20241029002547158.png" alt="image-20241029002547158"  />
@@ -85,10 +89,48 @@ class ViewController: UIViewController {
    <img src="./assets/image-20241028233135687.png" alt="image-20241028233135687" style="zoom:67%;" />
 
 - **Product Name**에는 원하는 이름을 입력하고, **Organization Identifier** 역시 아무거나 입력이 가능하다고는 하지만, [Apple Xcode Docs](https://developer.apple.com/documentation/xcode/creating-an-xcode-project-for-an-app#Create-a-project) 에서는 Java와 유사한 구조를 제안
-   <img src="./assets/image-20241028233658177.png" alt="image-20241028233658177" style="zoom:67%;" />
+   <img src="./assets/image-20241028233658177.png" alt="image-20241028233658177" style="width:700px; float: left" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - 원하는 경로에 프로젝트를 생성
-   <img src="./assets/image-20241028234006776.png" alt="image-20241028234006776" style="zoom:67%;" />
+   <img src="./assets/image-20241028234006776.png" alt="image-20241028234006776" style="width:700px; float: left" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - 생성 후 첫 화면 (느림...느리다...느려..)
    <img src="./assets/image-20241028234109543.png" alt="image-20241028234109543" style="zoom:67%;" />
