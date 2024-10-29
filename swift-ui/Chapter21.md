@@ -225,7 +225,7 @@ struct ContentView: View {
 }
 ```
 
-<img src="./assets/image-20241029181913763.png" alt="image-20241029181913763" style="zoom:33%;" /> <img src="./assets/image-20241029182021810.png" alt="image-20241029182021810" style="zoom:35%;" />
+<img src="./assets/image-20241029181913763.png" alt="image-20241029181913763" style="width:770px;" /> <img src="./assets/image-20241029182021810.png" alt="image-20241029182021810" style="width:350px;" />
 
 ## 텍스트 줄 제한과 레이아웃 우선순위
 

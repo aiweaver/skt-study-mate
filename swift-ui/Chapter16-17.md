@@ -71,7 +71,9 @@ class ViewController: UIViewController {
 #### 실습 준비
 
 - iOS 장비의 **Developer Mode** 를 **On**으로 변경 후 **Restart**
-   ![image-20241029000545767](./assets/image-20241029000545767.png)
+   
+
+<img src="./assets/image-20241029000545767.png" alt="image-20241029000545767" style="width:500px; float:left" />
 
 - Team을 지정
    <img src="./assets/image-20241029002547158.png" alt="image-20241029002547158"  />
@@ -93,13 +95,13 @@ class ViewController: UIViewController {
 
 - 왼쪽 패널에 다양한 옵션 메뉴들...
 
-   <img src="./assets/image-20241029104950550.png" alt="image-20241029104950550" style="zoom: 25%;" /> <img src="./assets/image-20241029105044540.png" alt="image-20241029105044540" style="zoom: 25%;" /> <img src="./assets/image-20241029105524231.png" alt="image-20241029105524231" style="zoom: 25%;" /> <img src="./assets/image-20241029105200209.png" alt="image-20241029105200209" style="zoom:25%;" /> <img src="./assets/image-20241029105325576.png" alt="image-20241029105325576" style="zoom:25%;" /> <img src="./assets/image-20241029105429366.png" alt="image-20241029105429366" style="zoom:38%;" /> <img src="./assets/image-20241029105625996.png" alt="image-20241029105625996" style="zoom:38%;" /> <img src="./assets/image-20241029105716823.png" alt="image-20241029105716823" style="zoom:38%;" /> <img src="./assets/image-20241029105841562.png" alt="image-20241029105841562" style="zoom:25%;" /> 
+   <img src="./assets/image-20241029104950550.png" alt="image-20241029104950550" style="width:300px;" /> <img src="./assets/image-20241029105044540.png" alt="image-20241029105044540" style="width:300px;" /> <img src="./assets/image-20241029105524231.png" alt="image-20241029105524231" style="width:300px;" /> <img src="./assets/image-20241029105200209.png" alt="image-20241029105200209" style="width:300px;" /> <img src="./assets/image-20241029105325576.png" alt="image-20241029105325576" style="width:300px;" /> <img src="./assets/image-20241029105429366.png" alt="image-20241029105429366" style="width:300px;" /> <img src="./assets/image-20241029105625996.png" alt="image-20241029105625996" style="width:300px;" /> <img src="./assets/image-20241029105716823.png" alt="image-20241029105716823" style="width:300px;" /> <img src="./assets/image-20241029105841562.png" alt="image-20241029105841562" style="width:300px;" /> 
 
 - iOS Device에서 실행 할 때는 **VPN & Device Management**에서 **DEVELOPER APP**에 자신의 개발자 인증서를 **Trust** 해줘야 함
 
-   <img src="./assets/image-20241029113636378.png" alt="image-20241029113636378" style="zoom:25%;" /> <img src="./assets/image-20241029114018911.png" alt="image-20241029114018911" style="zoom: 25%;" /> <img src="./assets/image-20241029114116705.png" alt="image-20241029114116705" style="zoom:15%;" />
+   <img src="./assets/image-20241029113636378.png" alt="image-20241029113636378" style="width:400px;" /> <img src="./assets/image-20241029114018911.png" alt="image-20241029114018911" style="width:400px;" /> <img src="./assets/image-20241029114116705.png" alt="image-20241029114116705" style="width:400px;" />
 
-   <img src="./assets/image-20241029114543773.png" alt="image-20241029114543773" style="zoom:25%;" />
+   <img src="./assets/image-20241029114543773.png" alt="image-20241029114543773" style="width:400px;" />
 
 에러 발생 시 Debug Navigator에서 분석에 필요한 다양한 프로파일링이 가능
 

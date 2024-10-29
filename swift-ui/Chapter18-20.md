@@ -30,8 +30,9 @@
 
 # 실습
 
-앞 써 생성한 swift Product를 기반으로 설명
-<img src="./assets/image-20241029132221749.png" alt="image-20241029132221749" style="zoom:50%;" />
+* 앞 써 생성한 swift Product를 기반으로 설명
+
+<img src="./assets/image-20241029132221749.png" alt="image-20241029132221749" style="width:400px; float: left" />
 
 ## App
 
@@ -118,7 +119,7 @@ struct ContentView: View {
 
 Swift 뷰는 기본적으로 부모 View와 자식 View 형태의 계층 구조를 가질 수 있음
 
-<img src="./assets/image-20241029140007670.png" alt="image-20241029140007670" style="zoom:67%;" />
+<img src="./assets/image-20241029140007670.png" alt="image-20241029140007670" style="width: 500px; float: left" />
 
 위 계층 구조를 코드로 표하면 다음과 같음
 
@@ -306,7 +307,7 @@ struct ContentView: View {
 
 모든 SwiftUI View에는 View의 모양과 동작을 변경하는 데 사용하는 수정자(modifier)가 있음
 
-<img src="/Users/1113628/Git/aiweaver-io/aiweaver-study-mate/swift-ui/assets/image-20241029143157716.png" alt="image-20241029143157716" style="zoom:40%;" /> <img src="/Users/1113628/Git/aiweaver-io/aiweaver-study-mate/swift-ui/assets/image-20241029143509032.png" alt="image-20241029143509032" style="zoom:52%;" />
+<img src="./assets/image-20241029143157716.png" alt="image-20241029143157716" style="zoom:40%;" /> <img src="./assets/image-20241029143509032.png" alt="image-20241029143509032" style="zoom:52%;" />
 
 ## Text 스타일
 
@@ -371,7 +372,7 @@ struct ContentView: View {
 }
 ```
 
-<img src="./assets/image-20241029144036367.png" alt="image-20241029144036367" style="zoom:45%;" /> <img src="./assets/image-20241029144120742.png" alt="image-20241029144120742" style="zoom:45%;" />
+<img src="./assets/image-20241029144036367.png" alt="image-20241029144036367" style="width:500px;" /> <img src="./assets/image-20241029144120742.png" alt="image-20241029144120742" style="width:500px;" />
 
 ## Custom 수정자
 
