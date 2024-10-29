@@ -71,79 +71,46 @@ class ViewController: UIViewController {
 #### 실습 준비
 
 - iOS 장비의 **Developer Mode** 를 **On**으로 변경 후 **Restart**
-  <img src="./assets/image-20241029000545767.png" alt="image-20241029000545767" style="width:500px; float:left" />
 
-
-
-
-
-
+<img src="./assets/image-20241029000545767.png" alt="image-20241029000545767" style="width:500px; float:left" />
 
 - Team을 지정
-   <img src="./assets/image-20241029002547158.png" alt="image-20241029002547158"  />
+
+<img src="./assets/image-20241029002547158.png" alt="image-20241029002547158" style="width:1000px; float:left" />
 
 - **Xcode** 실행 후 **Create New Project...** 클릭
-   <img src="./assets/image-20241028232846369.png" alt="image-20241028232846369" style="zoom:67%;" />
+
+<img src="./assets/image-20241028232846369.png" alt="image-20241028232846369" style="width:600px; float:left" />
 
 - **Application** 에서 **App**을 선택 한 후 **Next** 클릭
-   <img src="./assets/image-20241028233135687.png" alt="image-20241028233135687" style="zoom:67%;" />
+
+<img src="./assets/image-20241028233135687.png" alt="image-20241028233135687" style="width:600px; float:left" />
 
 - **Product Name**에는 원하는 이름을 입력하고, **Organization Identifier** 역시 아무거나 입력이 가능하다고는 하지만, [Apple Xcode Docs](https://developer.apple.com/documentation/xcode/creating-an-xcode-project-for-an-app#Create-a-project) 에서는 Java와 유사한 구조를 제안
-   <img src="./assets/image-20241028233658177.png" alt="image-20241028233658177" style="width:700px; float: left" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="./assets/image-20241028233658177.png" alt="image-20241028233658177" style="width:600px; float: left" />
 
 - 원하는 경로에 프로젝트를 생성
-   <img src="./assets/image-20241028234006776.png" alt="image-20241028234006776" style="width:700px; float: left" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="./assets/image-20241028234006776.png" alt="image-20241028234006776" style="width:600px; float: left" />
 
 - 생성 후 첫 화면 (느림...느리다...느려..)
-   <img src="./assets/image-20241028234109543.png" alt="image-20241028234109543" style="zoom:67%;" />
+
+<img src="./assets/image-20241028234109543.png" alt="image-20241028234109543" style="width:1000px; float:left" />
 
 - 왼쪽 패널에 다양한 옵션 메뉴들...
 
-   <img src="./assets/image-20241029104950550.png" alt="image-20241029104950550" style="width:300px;" /> <img src="./assets/image-20241029105044540.png" alt="image-20241029105044540" style="width:300px;" /> <img src="./assets/image-20241029105524231.png" alt="image-20241029105524231" style="width:300px;" /> <img src="./assets/image-20241029105200209.png" alt="image-20241029105200209" style="width:300px;" /> <img src="./assets/image-20241029105325576.png" alt="image-20241029105325576" style="width:300px;" /> <img src="./assets/image-20241029105429366.png" alt="image-20241029105429366" style="width:300px;" /> <img src="./assets/image-20241029105625996.png" alt="image-20241029105625996" style="width:300px;" /> <img src="./assets/image-20241029105716823.png" alt="image-20241029105716823" style="width:300px;" /> <img src="./assets/image-20241029105841562.png" alt="image-20241029105841562" style="width:300px;" /> 
+<img src="./assets/image-20241029104950550.png" alt="image-20241029104950550" style="width:300px;" /> <img src="./assets/image-20241029105044540.png" alt="image-20241029105044540" style="width:300px;" /> <img src="./assets/image-20241029105524231.png" alt="image-20241029105524231" style="width:300px;" /> <img src="./assets/image-20241029105200209.png" alt="image-20241029105200209" style="width:300px;" /> <img src="./assets/image-20241029105325576.png" alt="image-20241029105325576" style="width:300px;" /> <img src="./assets/image-20241029105429366.png" alt="image-20241029105429366" style="width:300px;" /> <img src="./assets/image-20241029105625996.png" alt="image-20241029105625996" style="width:300px;" /> <img src="./assets/image-20241029105716823.png" alt="image-20241029105716823" style="width:300px;" /> <img src="./assets/image-20241029105841562.png" alt="image-20241029105841562" style="width:300px;" /> 
 
 - iOS Device에서 실행 할 때는 **VPN & Device Management**에서 **DEVELOPER APP**에 자신의 개발자 인증서를 **Trust** 해줘야 함
 
-   <img src="./assets/image-20241029113636378.png" alt="image-20241029113636378" style="width:400px;" /> <img src="./assets/image-20241029114018911.png" alt="image-20241029114018911" style="width:400px;" /> <img src="./assets/image-20241029114116705.png" alt="image-20241029114116705" style="width:400px;" />
+   <img src="./assets/image-20241029113636378.png" alt="image-20241029113636378" style="width:400px; float:left" />
 
-   <img src="./assets/image-20241029114543773.png" alt="image-20241029114543773" style="width:400px;" />
+    <img src="./assets/image-20241029114018911.png" alt="image-20241029114018911" style="width:400px; float:left" /> <img src="./assets/image-20241029114116705.png" alt="image-20241029114116705" style="width:400px; float:left" />
+
+   
+
+   <img src="./assets/image-20241029114543773.png" alt="image-20241029114543773" style="width:400px; float:left" />
 
 에러 발생 시 Debug Navigator에서 분석에 필요한 다양한 프로파일링이 가능
 
