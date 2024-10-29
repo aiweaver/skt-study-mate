@@ -64,7 +64,7 @@ class ViewController: UIViewController {
     * 변수가 바뀜 → 뷰가 바뀐다는 의미로 해당 프로퍼티가 변경되는 이름 참조하는 뷰는 최신값을 반영하도록 업데이트 된다는 의미로 생각하면 됨
   * Swift Docs에서 [@State](https://developer.apple.com/documentation/swiftui/state#overview)
     * **Use state as the single source of truth for a given value type that you store in a view hierarchy.**
-      ![image-20241028161015973](./assets/image-20241028161015973.png) 
+      <img src="./assets/image-20241028161015973.png" alt="image-20241028161015973" style="zoom: 50%;" /> 
 
 ### 실습
 
@@ -73,28 +73,33 @@ class ViewController: UIViewController {
 - iOS 장비의 **Developer Mode** 를 **On**으로 변경 후 **Restart**
    ![image-20241029000545767](./assets/image-20241029000545767.png)
 
-   Team을 지정
-   ![image-20241029002547158](./assets/image-20241029002547158.png)
+- Team을 지정
+   <img src="./assets/image-20241029002547158.png" alt="image-20241029002547158"  />
 
 - **Xcode** 실행 후 **Create New Project...** 클릭
-   ![image-20241028232846369](./assets/image-20241028232846369.png)
+   <img src="./assets/image-20241028232846369.png" alt="image-20241028232846369" style="zoom:67%;" />
+
 - **Application** 에서 **App**을 선택 한 후 **Next** 클릭
-   ![image-20241028233135687](./assets/image-20241028233135687.png)
+   <img src="./assets/image-20241028233135687.png" alt="image-20241028233135687" style="zoom:67%;" />
+
 - **Product Name**에는 원하는 이름을 입력하고, **Organization Identifier** 역시 아무거나 입력이 가능하다고는 하지만, [Apple Xcode Docs](https://developer.apple.com/documentation/xcode/creating-an-xcode-project-for-an-app#Create-a-project) 에서는 Java와 유사한 구조를 제안
-   ![image-20241028233658177](./assets/image-20241028233658177.png)
+   <img src="./assets/image-20241028233658177.png" alt="image-20241028233658177" style="zoom:67%;" />
+
 - 원하는 경로에 프로젝트를 생성
-   ![image-20241028234006776](./assets/image-20241028234006776.png)
+   <img src="./assets/image-20241028234006776.png" alt="image-20241028234006776" style="zoom:67%;" />
+
 - 생성 후 첫 화면 (느림...느리다...느려..)
-   ![image-20241028234109543](./assets/image-20241028234109543.png)
+   <img src="./assets/image-20241028234109543.png" alt="image-20241028234109543" style="zoom:67%;" />
+
 - 왼쪽 패널에 다양한 옵션 메뉴들...
 
-   <img src="./assets/image-20241029104950550.png" alt="image-20241029104950550" style="zoom:40%;" /> <img src="./assets/image-20241029105044540.png" alt="image-20241029105044540" style="zoom:40%;" /> <img src="./assets/image-20241029105524231.png" alt="image-20241029105524231" style="zoom:40%;" /> <img src="./assets/image-20241029105200209.png" alt="image-20241029105200209" style="zoom:38%;" /> <img src="./assets/image-20241029105325576.png" alt="image-20241029105325576" style="zoom:38%;" /> <img src="./assets/image-20241029105429366.png" alt="image-20241029105429366" style="zoom:38%;" /> <img src="./assets/image-20241029105625996.png" alt="image-20241029105625996" style="zoom:38%;" /> <img src="./assets/image-20241029105716823.png" alt="image-20241029105716823" style="zoom:38%;" /> <img src="./assets/image-20241029105841562.png" alt="image-20241029105841562" style="zoom:40%;" /> 
-   
+   <img src="./assets/image-20241029104950550.png" alt="image-20241029104950550" style="zoom: 25%;" /> <img src="./assets/image-20241029105044540.png" alt="image-20241029105044540" style="zoom: 25%;" /> <img src="./assets/image-20241029105524231.png" alt="image-20241029105524231" style="zoom: 25%;" /> <img src="./assets/image-20241029105200209.png" alt="image-20241029105200209" style="zoom:25%;" /> <img src="./assets/image-20241029105325576.png" alt="image-20241029105325576" style="zoom:25%;" /> <img src="./assets/image-20241029105429366.png" alt="image-20241029105429366" style="zoom:38%;" /> <img src="./assets/image-20241029105625996.png" alt="image-20241029105625996" style="zoom:38%;" /> <img src="./assets/image-20241029105716823.png" alt="image-20241029105716823" style="zoom:38%;" /> <img src="./assets/image-20241029105841562.png" alt="image-20241029105841562" style="zoom:25%;" /> 
+
 - iOS Device에서 실행 할 때는 **VPN & Device Management**에서 **DEVELOPER APP**에 자신의 개발자 인증서를 **Trust** 해줘야 함
 
-   <img src="./assets/image-20241029113636378.png" alt="image-20241029113636378" style="zoom:40%;" /> <img src="./assets/image-20241029114018911.png" alt="image-20241029114018911" style="zoom:15%;" /> <img src="./assets/image-20241029114116705.png" alt="image-20241029114116705" style="zoom:15%;" />
-   
-   <div align="center"><img src="./assets/image-20241029114543773.png" alt="image-20241029114543773" style="zoom:22%;" /></div>
+   <img src="./assets/image-20241029113636378.png" alt="image-20241029113636378" style="zoom:25%;" /> <img src="./assets/image-20241029114018911.png" alt="image-20241029114018911" style="zoom: 25%;" /> <img src="./assets/image-20241029114116705.png" alt="image-20241029114116705" style="zoom:15%;" />
+
+   <img src="./assets/image-20241029114543773.png" alt="image-20241029114543773" style="zoom:25%;" />
 
 에러 발생 시 Debug Navigator에서 분석에 필요한 다양한 프로파일링이 가능
 
