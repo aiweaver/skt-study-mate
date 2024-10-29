@@ -307,7 +307,9 @@ struct ContentView: View {
 
 모든 SwiftUI View에는 View의 모양과 동작을 변경하는 데 사용하는 수정자(modifier)가 있음
 
-<img src="./assets/image-20241029143157716.png" alt="image-20241029143157716" style="zoom:40%;" /> <img src="./assets/image-20241029143509032.png" alt="image-20241029143509032" style="zoom:52%;" />
+<img src="./assets/image-20241029143157716.png" alt="image-20241029143157716" style="width:800px; float:left" /> 
+
+<img src="./assets/image-20241029143509032.png" alt="image-20241029143509032" style="width:600px; float:left" />
 
 ## Text 스타일
 
