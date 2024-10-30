@@ -74,10 +74,6 @@ class ViewController: UIViewController {
 
 <img src="./assets/image-20241029000545767.png" alt="image-20241029000545767" style="width:500px; float:left" />
 
-- Team을 지정
-
-<img src="./assets/image-20241029002547158.png" alt="image-20241029002547158" style="width:1000px; float:left" />
-
 - **Xcode** 실행 후 **Create New Project...** 클릭
 
 <img src="./assets/image-20241028232846369.png" alt="image-20241028232846369" style="width:600px; float:left" />
@@ -97,6 +93,10 @@ class ViewController: UIViewController {
 - 생성 후 첫 화면 (느림...느리다...느려..)
 
 <img src="./assets/image-20241028234109543.png" alt="image-20241028234109543" style="width:1000px; float:left" />
+
+- Xcode - Project 설정에서 Team을 지정
+
+<img src="./assets/image-20241029002547158.png" alt="image-20241029002547158" style="width:1000px; float:left" />
 
 - 왼쪽 패널에 다양한 옵션 메뉴들...
 
