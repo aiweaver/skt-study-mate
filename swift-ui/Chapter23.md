@@ -6,22 +6,22 @@
 
 * 프로젝트 템플릿 선택 화면에서 'Multiplatform - App' 선택
 
-<img src="/Users/1113628/Git/aiweaver/skt-study-mate/swift-ui/assets/image-20241030131938576.png" alt="image-20241030131938576" style="zoom:67%;" />
+<img src="./assets/image-20241030131938576.png" alt="image-20241030131938576" style="zoom:67%;" />
 
 * Product Name으로 'SwiftUIDemo' 지정
 * Team에는 자신의 Team 선택
 
-<img src="/Users/1113628/Git/aiweaver/skt-study-mate/swift-ui/assets/image-20241030132233257.png" alt="image-20241030132233257" style="zoom:67%;" />
+<img src="./assets/image-20241030132233257.png" alt="image-20241030132233257" style="zoom:67%;" />
 
 ## 프로젝트 살펴보기
 
 * Multiplatform 으로 선택하였고, SwiftUI가 Cross Platform 을 지원하기 때문에 기본적으로 Mac App으로 Live Preview가 나타남
 
-<img src="/Users/1113628/Git/aiweaver/skt-study-mate/swift-ui/assets/image-20241030132356919.png" alt="image-20241030132356919" style="zoom:67%;" />
+<img src="./assets/image-20241030132356919.png" alt="image-20241030132356919" style="zoom:67%;" />
 
 * Live Preview Device를 iOS로 변경
 
-<img src="/Users/1113628/Git/aiweaver/skt-study-mate/swift-ui/assets/image-20241030132615160.png" alt="image-20241030132615160" style="zoom:67%;" />
+<img src="./assets/image-20241030132615160.png" alt="image-20241030132615160" style="zoom:67%;" />
 
 ## 레이아웃 수정하기
 
@@ -33,7 +33,7 @@
 
 * Library 에서 Slider를 검색하여 Live Preview 화면에 끌어다 놓음
 
-<img src="/Users/1113628/Git/aiweaver/skt-study-mate/swift-ui/assets/image-20241030134225229.png" alt="image-20241030134225229" style="zoom:67%;" />
+<img src="./assets/image-20241030134225229.png" alt="image-20241030134225229" style="zoom:67%;" />
 
 * 책에서는 Slider View를 Live Preview에 끌어다 놓으면 된다고 했으나, 실제로는 안됨
   * 더블클릭 하니 추가 됨
@@ -69,7 +69,7 @@ struct ContentView: View {
 
 * Editor에서 Text View 부분에서 마우스 오른쪽 클릭 후 '**Show SwiftUI Inspector**' 클릭
 
-![image-20241030135846234](/Users/1113628/Git/aiweaver/skt-study-mate/swift-ui/assets/image-20241030135846234.png)
+![image-20241030135846234](./assets/image-20241030135846234.png)
 
 ## 회전과 애니메이션 추가하기
 

@@ -103,7 +103,7 @@ struct ContentView: View {
 }
 ```
 
-<img src="/Users/1113628/Git/aiweaver/skt-study-mate/swift-ui/assets/image-20241030111852335.png" alt="image-20241030113610490" style="zoom:67%;" />
+<img src="./assets/image-20241030111852335.png" alt="image-20241030113610490" style="zoom:67%;" />
 
 ## State 바인딩
 
