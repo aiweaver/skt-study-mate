@@ -241,9 +241,9 @@ struct MyHStackView: View {
 
 위 예제에서는 메인 View가 **MyHStackView**라는 하위 뷰를 갖음
 
-<img src="/Users/1113628/Git/aiweaver-io/aiweaver-study-mate/swift-ui/assets/image-20241029135227193.png" alt="image-20241029142213246" style="zoom:67%;" />
+<img src="./assets/image-20241029135227193.png" alt="image-20241029142213246" style="zoom:67%;" />
 
-## 프로포티로서의 View
+## 프로퍼티로서의 View
 
 하위 View를 생성하는 것 이외에도 프로퍼티 View에 할당할 수도 있음
 

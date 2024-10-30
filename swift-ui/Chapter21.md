@@ -336,7 +336,7 @@ struct ContentView: View {
 
 ## 전통적 스택 vs. 지연 스택
 
-* ScrollView에서 Stack/VStack View 는 사용자에게 표시되는 지 여부와 관계없이 초기화 시 모든 하위 View를 생성 → 성능 저하로 이어질 수 있음
+* ScrollView에서 VStack/HStack View 는 사용자에게 표시되는 지 여부와 관계없이 초기화 시 모든 하위 View를 생성 → 성능 저하로 이어질 수 있음
   * 이 문제를 해결하기 위해 SwiftUI는 LazyVStack, LazyHStack을 지원 → 현재 화면 밖에 View는 사용자에게 표시되는 지점에 도달한 후에만 생성
 
 ```swift
